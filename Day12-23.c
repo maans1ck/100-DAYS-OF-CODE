@@ -2,7 +2,7 @@
 int main()
 {
     int daysLate;
-    int fine = 0;
+    int fine;
 
     printf("Enter the number of days late: ");
     scanf("%d", &daysLate);
