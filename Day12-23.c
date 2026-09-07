@@ -2,7 +2,7 @@
 int main()
 {
     int daysLate;
-    int fine = 0;
+    int fine;
 
     printf("Enter the number of days late: ");
     scanf("%d", &daysLate);
@@ -24,7 +24,7 @@ int main()
  
     else if (daysLate <= 30)
     {
-        fine + (5 * 2) + (5 * 4) + ((daysLate - 10) * 6);
+        fine = (5 * 2) + (5 * 4) + ((daysLate - 10) * 6);
         printf("Fine = Rs. %d", fine);
     }
     else 
