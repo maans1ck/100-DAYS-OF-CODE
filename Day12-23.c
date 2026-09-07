@@ -24,7 +24,7 @@ int main()
  
     else if (daysLate <= 30)
     {
-        fine + (5 * 2) + (5 * 4) + ((daysLate - 10) * 6);
+        fine = (5 * 2) + (5 * 4) + ((daysLate - 10) * 6);
         printf("Fine = Rs. %d", fine);
     }
     else 
