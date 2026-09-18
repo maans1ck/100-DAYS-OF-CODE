@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(void)
+{
+    int a,b,hcf=0;
+    scanf("%d %d",&a,&b);
+  
+   for(int i=0;i<=a||i<=b;i++)
+   {
+    if(a%i==0 && b%i==0)
+       hcf=i;
+   }
+    printf("LCM IS %d",(int)(a*b/hcf));
+}
