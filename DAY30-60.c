@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int a[100],n,i,positive=0,negative=0;
+    printf("Enter number of elements");
+    scanf("%d", &n);
+    printf("Enter the elements");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d", &a[i]);
+        if(a[i]>0)
+            positive++;
+        else if(a[i]<0)
+            negative++;
+    }
+    printf("Number of positive elements is %d", positive);
+    printf("Number of negative elements is %d", negative);
+    return 0;
+}
